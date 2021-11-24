@@ -1,7 +1,7 @@
 import dash
 from dash.dependencies import Input, Output
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc
+from dash import html
 
 import plotly.express as px
 import pandas as pd
@@ -13,13 +13,11 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
-server = app.server
-
 df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv')
 
 app.layout = html.Div([
     html.H1("Dash Draggable"),
-    dash_draggable.GridLayout(
+    dash_draggable.ResponsiveGridLayout(
         id='draggable',
         children=[
             html.Div(children=[
