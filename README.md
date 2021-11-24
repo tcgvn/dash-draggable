@@ -1,6 +1,6 @@
-# &#x1F446; <!-- :point_up_2:  --> dash-draggable
+# &#x1F446; <!-- :point_up_2:  --> dash-draggable-V2
 
-`dash-draggable` is a Dash component library for building grid layouts in dash with draggable and resizable components.
+`dash-draggable` is a Dash component library for building grid layouts in dash verion 2 with draggable and resizable components.
 
 **Note:** This project is still at an early stage &#x1F6B6;, don't hesitate to report potential bugs and to suggest features &#x1F60a;.
 
@@ -9,7 +9,7 @@
 ### Pip <!-- / Conda -->
 
 ```
-pip install dash-draggable
+pip install git+https://${GITHUB_TOKEN}@github.com/tcgvn/dash-draggable.git
 ```
 
 **Note:** This library requires [dash](https://plotly.com/dash/).
@@ -36,21 +36,14 @@ Get started with:
 
 The documentation is still in progress, you can find it [here](https://dash-draggable.readthedocs.io/en/latest/).
 
-## &#x1F6B6; Upcoming features
+## Upgrade
+Tutorials: [here](https://markgituma.medium.com/adding-custom-components-to-python-dash-cfafdbfb22f9).
+1. virtualenv -p python3.8 venv
+2. source venv/bin/active
+3. pip install -r requirements.txt
+4. npm install
+5. npm run build ( )
 
--   Design: Add themes
--   Drag freely (without grid)
--   Drag and drop items in list (trello-like)
-
-Don't hesitate to suggest other features &#x1F4AC;
-
-## Contributing
-
-See [CONTRIBUTING.md](./CONTRIBUTING.md)
-
-## Credits
-
--   [STRML/react-grid-layout](https://github.com/STRML/react-grid-layout)
 
 <!--
 ### Install dependencies

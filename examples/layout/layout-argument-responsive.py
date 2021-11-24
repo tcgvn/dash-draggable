@@ -28,7 +28,7 @@ app.layout = html.Div([
         layouts={
             "lg": [{
                 "i": "graph-with-slider",
-                "x":0, "y":0, "w":6, "h":12, "static": True
+                "x":0, "y":0, "w":6, "h":12
             },
             {
                 "i": "year-slider",
@@ -36,7 +36,7 @@ app.layout = html.Div([
             }],
             "sm": [{
                 "i": "graph-with-slider",
-                "x":0, "y":0, "w":6, "h":12, "static": True
+                "x":0, "y":0, "w":6, "h":12
             },
             {
                 "i": "year-slider",
