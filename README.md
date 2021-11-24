@@ -42,7 +42,7 @@ Tutorials: [here](https://markgituma.medium.com/adding-custom-components-to-pyth
 2. source venv/bin/active
 3. pip install -r requirements.txt
 4. npm install
-5. npm run build ( )
+5. npm run build ( included dash-generate-components and npm run build:js )
 
 
 <!--
@@ -138,5 +138,6 @@ If you have selected install_dependencies during the prompt, you can skip this p
     2. source venv/bin/active
     3. pip install requirements.txt
     4. npm install
-    5. npm run build
+    5. dash-generate-components ./src/lib/components dash_draggable -p package-info.json --r-prefix '' --jl-prefix ''
+    6. npm run build:js
 -->
