@@ -5,12 +5,12 @@ using Dash
 const resources_path = realpath(joinpath( @__DIR__, "..", "deps"))
 const version = "0.1.1a"
 
-include("''_dashboarditem.jl")
-include("''_dashboarditemresponsive.jl")
-include("''_draggabledashboard.jl")
-include("''_draggabledashboardresponsive.jl")
-include("''_gridlayout.jl")
-include("''_responsivegridlayout.jl")
+include("jl/dashboarditem.jl")
+include("jl/dashboarditemresponsive.jl")
+include("jl/draggabledashboard.jl")
+include("jl/draggabledashboardresponsive.jl")
+include("jl/gridlayout.jl")
+include("jl/responsivegridlayout.jl")
 
 function __init__()
     DashBase.register_package(

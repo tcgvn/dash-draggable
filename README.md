@@ -145,5 +145,5 @@ If you have selected install_dependencies during the prompt, you can skip this p
     2. source venv/bin/active
     3. pip install requirements.txt
     4. npm install
-    5. npm run build:js
+    5. npm run build
 -->
